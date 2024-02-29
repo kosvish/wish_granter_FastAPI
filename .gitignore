@@ -1,0 +1,20 @@
+# Ignore Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment directories and files
+.env
+
+env/
+venv/
+
+# Ignore IDE-related files and directories
+.idea/
+
+# Ignore Alembic cache and non-versioned files
+alembic/__pycache__/
+alembic/script.py.mako
+alembic/versions/__pycache__/
+migrations/
