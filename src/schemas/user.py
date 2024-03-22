@@ -10,6 +10,5 @@ class UserCreate(schemas.BaseUserCreate):
     first_name: str
 
 
-
 class UserUpdate(schemas.BaseUserUpdate):
     pass
